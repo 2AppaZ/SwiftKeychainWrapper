@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/jrendel/SwiftKeychainWrapper'
   s.license = 'MIT'
   s.authors = { 'Jason Rendel' => 'jason@jasonrendel.com' }
+  s.tvos.deployment_target = '11.0'
   s.ios.deployment_target = '8.0'
   s.swift_version = ['4.2', '5.0']
   s.source = { :git => 'https://github.com/jrendel/SwiftKeychainWrapper.git', :tag => s.version }
